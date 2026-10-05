@@ -1,8 +1,8 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://cokesme.github.io/fiesta'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Fiesta'
 theme = 'hugo-dg-theme'
-copyright = "Nigalya Ponya ©"
+copyright = "cokesme ©"
 
 [params]
   name = "Bob Dylan"
