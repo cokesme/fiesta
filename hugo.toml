@@ -1,5 +1,4 @@
 #baseURL = 'https://cokesme.github.io/fiesta'
-languageCode = 'en-us'
 theme = 'simple'
 title = 'Fiesta'
 copyright='cokesme 2026'
@@ -19,7 +18,7 @@ copyright='cokesme 2026'
   home = "right"
   list = "right"
   single = "right"
-  widgets = ["search", "categories", "taglist", "recent", "archives"]
+  widgets = ["search", "categories", "taglist", "recent"]
 
 [Params.widgets]
   recent_num = 5
@@ -29,7 +28,6 @@ copyright='cokesme 2026'
 [taxonomies]
   tag = "tags"
   category = "categories"
-  archive = "archives"
 
 [related]
   includeNewer = true
