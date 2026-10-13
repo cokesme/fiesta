@@ -9,7 +9,7 @@ copyright='cokesme 2026'
 
 [Params]
   Subtitle = "Minimal Hugo theme."
-  mainSections = ["post", "docs"]
+  mainSections = ["posts", "docs"]
   post_meta = ["date", "categories", "taglist"]
   dateformat = "2006-01-02"
   toc = true
