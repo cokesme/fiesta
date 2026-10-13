@@ -1,64 +1,41 @@
 baseURL = 'https://cokesme.github.io/fiesta'
 languageCode = 'en-us'
+theme = 'simple'
 title = 'Fiesta'
-theme = 'hugo-dg-theme'
 copyright = "cokesme ©"
 
-[params]
-  name = "Bob Dylan"
-  description = " HP."
-  initials = "BD"
-  googleAnalytics = ""
+[permalinks]
+  search = "/search/"
 
-  [[params.social]]
-    name = "Github"
-    link = "#"
-    icon = "fab fa-github"
+[Params]
+  Subtitle = "Minimal Hugo theme."
+  mainSections = ["post", "docs"]
+  post_meta = ["date", "categories", "taglist"]
+  dateformat = "2006-01-02"
+  toc = true
+  pager = true
 
-[menu]
-  [[menu.main]]
-    name = "Digital Garden"
-    url = "/garden/"
-    weight = 1
-  [[menu.main]]
-    name = "Posts"
-    url = "/posts/"
-    weight = 2
-  [[menu.main]]
-    name = "Library"
-    url = "/library/"
-    weight = 3
-  [[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 4
+[Params.sidebar]
+  home = "right"
+  list = "right"
+  single = "right"
+  widgets = ["search", "categories", "taglist", "recent", "archives"]
 
-
+[Params.widgets]
+  recent_num = 5
+  categories_counter = true
+  tags_counter = true
+  
 [taxonomies]
-  garden_tags = 'garden_tags'
-  project_tags = 'project_tags'
-  library_tags = 'library_tags'
+  tag = "tags"
+  category = "categories"
+  archive = "archives"
 
-
-[markup]
-  defaultMarkdownHandler = 'goldmark'
-  [markup.goldmark.renderer]
-    unsafe = true
-  [markup.goldmark.parser]
-    autoHeadingID = true
-    autoHeadingIDType = 'github'
-    wrapStandAloneImageWithinParagraph = true
-    [markup.goldmark.parser.attribute]
-      block = false
-      title = true
-  [markup.goldmark.extensions]
-    definitionList = true
-    footnote = true
-    linkify = true
-    strikethrough = true
-    table = true
-    taskList = true
-    typographer = true
-  [markup.highlight]
-    # Choose from https://xyproto.github.io/splash/docs/all.html
-    style = 'monokailight'
+[related]
+  includeNewer = true
+[[related.indices]]
+  name = "tags"
+  weight = 80
+[[related.indices]]
+  name = "categories"
+  weight = 60

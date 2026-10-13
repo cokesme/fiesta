@@ -1,3 +1,9 @@
 [submodule "themes/hugo-dg-theme"]
 	path = themes/hugo-dg-theme
 	url = https://github.com/paulmartins/hugo-digital-garden-theme.git
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/gohugo-ananke/ananke
+[submodule "themes/simple"]
+	path = themes/simple
+	url = https://github.com/Dim0000/simple-frame
