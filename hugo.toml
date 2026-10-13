@@ -1,8 +1,8 @@
-baseURL = 'https://cokesme.github.io/fiesta'
+#baseURL = 'https://cokesme.github.io/fiesta'
 languageCode = 'en-us'
 theme = 'simple'
 title = 'Fiesta'
-copyright = "cokesme ©"
+copyright='cokesme 2026'
 
 [permalinks]
   search = "/search/"
