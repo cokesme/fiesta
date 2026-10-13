@@ -1,6 +1,7 @@
 +++
 title = 'Journal: 12 Oct 2026'
 date = '2026-10-12'
+draft = false
 +++
 
 I've spent a significant amount of my life at this point looking at a computer screen, monitor, smartphone, etc. Yet, I really don't think I have any idea how to use this technology well. I thought for a while that I would be able to journal on a notebook instead, but I realized that I actually don't know how to use that technology well either. Honestly, I'm not quite sure why in either case. 
