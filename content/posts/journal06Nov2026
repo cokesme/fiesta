@@ -1,0 +1,3 @@
++++ title = 'Journal: 12 Oct 2026' date = '2026-10-12' categories='' taglist='' +++
+
+Just saw that syzbot has AI agents that are now doing some analysis of the various bugs that are found to both create reproducers and create patches automatically. Some of the transcripts are available to everyone. Everyone is agentifying everything.
